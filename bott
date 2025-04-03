@@ -1,7 +1,11 @@
 cd "c:\Users\mishael\OneDrive\שולחן העבודה\whatsappBot"
 git init
+git add whatsapp_bot.py requirements.txt
+git status
+git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/whatsapp-expense-bot.git
-git push -u origin main
+git remote remove origin
+git remote add origin https://github.com/mishmis000/whatsapp-expense-bot.git
+git push -f origin main
